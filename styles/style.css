@@ -20,7 +20,7 @@ h1 {
     margin-bottom: 100px;
 }
 
-.name {
+.orange {
     color: orange;
 }
 
@@ -51,4 +51,16 @@ h1 {
     background-image: url(../Images/about-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experiences {
+    display: flex;
+    justify-content: space-between;
+}
+
+.experience-item {
+    width: 45%;
+    box-shadow: 5px 10px 40px gray;
+    padding-left: 30px;
+    padding-right: 10px;
 }
