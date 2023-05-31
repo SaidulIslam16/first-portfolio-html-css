@@ -1,7 +1,46 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
-h1{
+h1 {
     font-size: 40px;
+}
+
+.hero-section {
+    display: flex;
+    background-image: url(../Images/developer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.container {
+    /* max-width: 1200px; */
+    padding: 0 7%;
+}
+
+.name {
+    color: orange;
+}
+
+
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    border: 7px solid rgba(255, 166, 0, 0.451);
+    border-radius: 50%;
+    max-width: 80%;
+    margin-left: 40px;
+}
+
+.button {
+    text-decoration: none;
+    background-image: linear-gradient(140deg, orange, red);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
 }
