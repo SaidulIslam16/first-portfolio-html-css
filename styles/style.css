@@ -63,4 +63,17 @@ h1 {
     box-shadow: 5px 10px 40px gray;
     padding-left: 30px;
     padding-right: 10px;
+    border-radius: 10px;
+}
+
+.full-stack-dev {
+    border-left: 7px solid red;
+}
+
+.junior-dev {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
