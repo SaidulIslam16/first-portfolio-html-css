@@ -17,6 +17,7 @@ h1 {
 .container {
     /* max-width: 1200px; */
     padding: 0 7%;
+    margin-bottom: 100px;
 }
 
 .name {
@@ -43,4 +44,11 @@ h1 {
     border-radius: 5px;
     color: rgb(255, 255, 255);
     font-weight: 700;
+}
+
+.about-sect {
+    display: flex;
+    background-image: url(../Images/about-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
